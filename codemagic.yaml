@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "Current Calculator"
+                XCODE_WORKSPACE: "currentCalculator.xcodeproj"
                 XCODE_SCHEME: "mac_mini"
             xcode: latest
             cocoapods: default
